@@ -1,0 +1,113 @@
+body{
+    font-family: poppins;
+    background: rgb(255, 241, 241);
+}
+.title{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+    background: rgb(0, 144, 120);
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+}
+.form input[type=text]{
+    width: 44.5rem;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 2px solid #009078;
+}
+.form input[type=submit]{
+    border: none;
+    outline: none;
+    width: 15rem;
+    height: 2.5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    background: rgb(0, 144, 120);
+    border-radius: 50px;
+    box-shadow: 2px 2px 2px rgb(161, 161, 161);
+    cursor: pointer;
+    color: white;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    transition: background 0.5s , width .5s;
+}
+.form input[type=submit]:hover{
+
+    background: yellowgreen;
+    width: 17rem;
+}
+.form input[type=text]:focus{
+    border-bottom: 2px solid #777;
+}
+.form textarea{
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 2px solid rgb(0, 144, 120)   ;
+}
+.form textarea:focus{
+    border-bottom: 2px solid #777;
+
+}
+.all-btn{
+    border: none;
+    outline: none;
+    width: 10rem;
+    height: 2.5rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    background: #009078;
+
+    border-radius: 50px;
+    box-shadow: 2px 2px 2px rgb(161, 161, 161);
+    cursor: pointer;
+    transition: background 0.5s ,width 0.5s;
+}
+.all-btn a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+.all-btn:hover{
+    background: #006655;
+    width: 12rem;
+}
+.all-btn-all-page{
+    border: none;
+    outline: none;
+    width: 12rem;
+    height: 2.5rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    background: #009078;
+    border-radius: 50px;
+    box-shadow: 2px 2px 2px #a1a1a1;
+    cursor: pointer;
+    margin-top: 50px;
+    transition: background 0.5s ,width 0.5s;
+}
+.all-btn-all-page a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+.all-btn-all-page:hover{
+    background: #006655;
+    width: 14rem;
+}
+.notes-title{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 1.4rem;
+    
+}

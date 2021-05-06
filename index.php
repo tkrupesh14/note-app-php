@@ -9,13 +9,14 @@ include './header.php';
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AK Notes Saver</title>
+    <link rel="stylesheet" href="./css/style.css?v=<?php echo time(); ?>">
 </head>
 <body>
         <div class="form">
             <form action="" method="post">
                 <input type="text" value="" name="title" placeholder="Enter your note title" required><br><br>
-                <textarea name="desc" id="" cols="100" rows="10" placeholder="Enter your note Description" required></textarea><br><br>
-                <input type="submit" value="Add Note" name="submit"><br><br>
+                <textarea name="desc" id="" cols="100" rows="5" placeholder="Enter your note Description" required></textarea><br><br>
+              <center> <input type="submit" value="Add Note" name="submit"></center> <br><br>
             </form>
         </div>
     
@@ -39,8 +40,9 @@ if(isset($_POST['submit']))
       }else{
           echo "<script>alert('note not added');</script><br>";
       }
-    
-    echo "<button><a href='allnote.php'>All Notes</a></button>";
-    
+      echo "<center><button href='allnote.php' class ='all-btn' ><a href='allnote.php'>All Notes</a></button></center>";
+   
 }
+
+    
 ?>
